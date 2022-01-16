@@ -1,5 +1,6 @@
 import { Router } from '@reach/router';
 import Dogs from './components/Dogs';
+import DogDetails from './components/DogDetails';
 import './css/Main.css'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <Router>
         <Dogs path="/" />
 
-        {/* <CountryDetails path="/:country" /> */}
+        <DogDetails path="/:dog" />
       </Router>
     </div>
   );
